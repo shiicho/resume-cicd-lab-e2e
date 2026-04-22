@@ -11,7 +11,7 @@
   "containerDefinitions": [
     {
       "name": "web",
-      "image": "635958930059.dkr.ecr.ap-northeast-1.amazonaws.com/resume-shared-ecr-web-cicd-lab-e2e@sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "image": "635958930059.dkr.ecr.ap-northeast-1.amazonaws.com/resume-shared-ecr-web-cicd-lab-e2e@sha256:317e3bbb1d433291958e1d8eac0604bf3aa30a546e45101f704804621b75a2be",
       "essential": true,
       "portMappings": [
         {
@@ -27,7 +27,7 @@
         },
         {
           "name": "APP_VERSION",
-          "value": "0.1.0"
+          "value": "0.3.0"
         },
         {
           "name": "APP_HOSTNAME",
@@ -39,7 +39,7 @@
         },
         {
           "name": "APP_COMMIT_SHA",
-          "value": "bootstrap"
+          "value": "074a4253480c"
         }
       ],
       "logConfiguration": {
