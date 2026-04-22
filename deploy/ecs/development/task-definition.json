@@ -1,17 +1,17 @@
 {
-  "family": "resume-dev-ecs-task-cicd-lab",
+  "family": "resume-dev-ecs-task-cicd-lab-e2e",
   "networkMode": "awsvpc",
   "requiresCompatibilities": [
     "FARGATE"
   ],
   "cpu": "256",
   "memory": "512",
-  "executionRoleArn": "arn:aws:iam::123456789012:role/resume-dev-iam-ecs-task-exec-cicd-lab",
-  "taskRoleArn": "arn:aws:iam::123456789012:role/resume-dev-iam-ecs-task-app-cicd-lab",
+  "executionRoleArn": "arn:aws:iam::635958930059:role/resume-dev-iam-ecs-task-exec-cicd-lab-e2e",
+  "taskRoleArn": "arn:aws:iam::635958930059:role/resume-dev-iam-ecs-task-app-cicd-lab-e2e",
   "containerDefinitions": [
     {
       "name": "web",
-      "image": "123456789012.dkr.ecr.ap-northeast-1.amazonaws.com/resume-shared-ecr-web-cicd-lab@sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "image": "635958930059.dkr.ecr.ap-northeast-1.amazonaws.com/resume-shared-ecr-web-cicd-lab-e2e@sha256:0000000000000000000000000000000000000000000000000000000000000000",
       "essential": true,
       "portMappings": [
         {
@@ -31,11 +31,11 @@
         },
         {
           "name": "APP_HOSTNAME",
-          "value": "replace-with-development-service-host"
+          "value": "resume-dev-elb-cl-1600018370.ap-northeast-1.elb.amazonaws.com"
         },
         {
           "name": "APP_BASE_URL",
-          "value": "http://replace-with-development-service-host"
+          "value": "http://resume-dev-elb-cl-1600018370.ap-northeast-1.elb.amazonaws.com"
         },
         {
           "name": "APP_COMMIT_SHA",
@@ -45,7 +45,7 @@
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
-          "awslogs-group": "/aws/ecs/resume-dev-logs-web-cicd-lab",
+          "awslogs-group": "/aws/ecs/resume-dev-logs-web-cicd-lab-e2e",
           "awslogs-region": "ap-northeast-1",
           "awslogs-stream-prefix": "ecs"
         }

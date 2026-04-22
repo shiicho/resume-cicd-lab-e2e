@@ -23,7 +23,7 @@
     "region": "ap-northeast-1",
     "stackPrefix": "resume-cicd-lab",
     "resourceProjectName": "resume",
-    "resourceIdentifier": "cicd-lab",
+    "resourceIdentifier": "cicd-lab-e2e",
     "resourceShortIdentifier": "cl",
     "existingGitHubOidcProviderArn": ""
   },
