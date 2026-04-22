@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/shiicho/resume-cicd-lab-e2e/compare/web-v0.2.0...web-v0.3.0) (2026-04-22)
+
+
+### Features
+
+* **resume:** add talking point about release pipeline ([#6](https://github.com/shiicho/resume-cicd-lab-e2e/issues/6)) ([3558b8d](https://github.com/shiicho/resume-cicd-lab-e2e/commit/3558b8d8737492a902cbbc45354ad54886dd7427))
+
 ## [0.2.0](https://github.com/shiicho/resume-cicd-lab/compare/web-v0.1.0...web-v0.2.0) (2026-04-21)
 
 
