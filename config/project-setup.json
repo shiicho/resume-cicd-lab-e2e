@@ -6,7 +6,7 @@
   },
   "github": {
     "owner": "shiicho",
-    "repo": "resume-cicd-lab-goushuukai-template",
+    "repo": "resume-cicd-lab-e2e",
     "visibility": "public",
     "createRepo": true,
     "topics": [
@@ -65,5 +65,8 @@
       "publicSubnet2Cidr": "10.60.1.0/24",
       "desiredCount": 2
     }
+  },
+  "ui": {
+    "locale": "zh-CN"
   }
 }

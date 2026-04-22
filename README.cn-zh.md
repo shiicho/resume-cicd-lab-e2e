@@ -66,17 +66,17 @@
 
 每个 lab 都以一个已合并 PR 结束。合并时 [`.github/workflows/lab-label.yml`](.github/workflows/lab-label.yml) 会加上 `lab-N-complete` 标签,下面的徽章读取该标签的数量。**全部 `0` = 未开始** · **全部 `1` = 完成**。
 
-[![Lab 0](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-goushuukai-template?query=label%3Alab-0-complete+is%3Amerged&label=Lab%200&style=flat-square&color=gold&cacheSeconds=60)](docs/cn-zh/lab-00-preview.md)
-[![Lab 1](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-goushuukai-template?query=label%3Alab-1-complete+is%3Amerged&label=Lab%201&style=flat-square&color=2ea44f&cacheSeconds=60)](docs/cn-zh/lab-01-safety-first.md)
-[![Lab 2](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-goushuukai-template?query=label%3Alab-2-complete+is%3Amerged&label=Lab%202&style=flat-square&color=2ea44f&cacheSeconds=60)](docs/cn-zh/lab-02-tools-and-dry-run.md)
-[![Lab 3](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-goushuukai-template?query=label%3Alab-3-complete+is%3Amerged&label=Lab%203&style=flat-square&color=gold&cacheSeconds=60)](docs/cn-zh/lab-03-wire-the-lab.md)
-[![Lab 4](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-goushuukai-template?query=label%3Alab-4-complete+is%3Amerged&label=Lab%204&style=flat-square&color=2ea44f&cacheSeconds=60)](docs/cn-zh/lab-04-first-green-check.md)
-[![Lab 5](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-goushuukai-template?query=label%3Alab-5-complete+is%3Amerged&label=Lab%205&style=flat-square&color=2ea44f&cacheSeconds=60)](docs/cn-zh/lab-05-first-release-tag.md)
-[![Lab 6](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-goushuukai-template?query=label%3Alab-6-complete+is%3Amerged&label=Lab%206&style=flat-square&color=2ea44f&cacheSeconds=60)](docs/cn-zh/lab-06-first-artifacts.md)
-[![Lab 7](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-goushuukai-template?query=label%3Alab-7-complete+is%3Amerged&label=Lab%207&style=flat-square&color=gold&cacheSeconds=60)](docs/cn-zh/lab-07-first-deploy.md)
-[![Lab 8](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-goushuukai-template?query=label%3Alab-8-complete+is%3Amerged&label=Lab%208&style=flat-square&color=gold&cacheSeconds=60)](docs/cn-zh/lab-08-self-proof-banner.md)
-[![Lab 9](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-goushuukai-template?query=label%3Alab-9-complete+is%3Amerged&label=Lab%209&style=flat-square&color=2ea44f&cacheSeconds=60)](docs/cn-zh/lab-09-first-promotion.md)
-[![Lab 10](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-goushuukai-template?query=label%3Alab-10-complete+is%3Amerged&label=Lab%2010&style=flat-square&color=gold&cacheSeconds=60)](docs/cn-zh/lab-10-teardown.md)
+[![Lab 0](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-e2e?query=label%3Alab-0-complete+is%3Amerged&label=Lab%200&style=flat-square&color=gold&cacheSeconds=60)](docs/cn-zh/lab-00-preview.md)
+[![Lab 1](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-e2e?query=label%3Alab-1-complete+is%3Amerged&label=Lab%201&style=flat-square&color=2ea44f&cacheSeconds=60)](docs/cn-zh/lab-01-safety-first.md)
+[![Lab 2](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-e2e?query=label%3Alab-2-complete+is%3Amerged&label=Lab%202&style=flat-square&color=2ea44f&cacheSeconds=60)](docs/cn-zh/lab-02-tools-and-dry-run.md)
+[![Lab 3](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-e2e?query=label%3Alab-3-complete+is%3Amerged&label=Lab%203&style=flat-square&color=gold&cacheSeconds=60)](docs/cn-zh/lab-03-wire-the-lab.md)
+[![Lab 4](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-e2e?query=label%3Alab-4-complete+is%3Amerged&label=Lab%204&style=flat-square&color=2ea44f&cacheSeconds=60)](docs/cn-zh/lab-04-first-green-check.md)
+[![Lab 5](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-e2e?query=label%3Alab-5-complete+is%3Amerged&label=Lab%205&style=flat-square&color=2ea44f&cacheSeconds=60)](docs/cn-zh/lab-05-first-release-tag.md)
+[![Lab 6](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-e2e?query=label%3Alab-6-complete+is%3Amerged&label=Lab%206&style=flat-square&color=2ea44f&cacheSeconds=60)](docs/cn-zh/lab-06-first-artifacts.md)
+[![Lab 7](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-e2e?query=label%3Alab-7-complete+is%3Amerged&label=Lab%207&style=flat-square&color=gold&cacheSeconds=60)](docs/cn-zh/lab-07-first-deploy.md)
+[![Lab 8](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-e2e?query=label%3Alab-8-complete+is%3Amerged&label=Lab%208&style=flat-square&color=gold&cacheSeconds=60)](docs/cn-zh/lab-08-self-proof-banner.md)
+[![Lab 9](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-e2e?query=label%3Alab-9-complete+is%3Amerged&label=Lab%209&style=flat-square&color=2ea44f&cacheSeconds=60)](docs/cn-zh/lab-09-first-promotion.md)
+[![Lab 10](https://img.shields.io/github/issues-search/shiicho/resume-cicd-lab-e2e?query=label%3Alab-10-complete+is%3Amerged&label=Lab%2010&style=flat-square&color=gold&cacheSeconds=60)](docs/cn-zh/lab-10-teardown.md)
 
 Lab 0、3、6、10 通过 `./scripts/claim.py lab-N` 打开的 claim PR 完成。其余 lab 会生成它们自己的 feature、release 或 deploy PR —— workflow 都识别并分别打上对应标签。
 
