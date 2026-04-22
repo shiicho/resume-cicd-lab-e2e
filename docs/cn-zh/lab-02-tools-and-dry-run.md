@@ -132,6 +132,19 @@
 
 证明了工具链完整,并在零代价状态下彩排了紧急出口。从这里开始,destroy 就是一条你熟悉的命令,而不是吓人的命令。
 
+
+## My environment
+
+Recorded <YYYY-MM-DD>:
+
+- `git --version` → <git version>
+- `python3 --version` → <python3 version>
+- `node --version` → <node version>
+- `npm --version` → <npm version>
+- `aws --version` → <aws version>
+- `gh --version` → <gh version>
+- `jq --version` → <jq version>
+
 ## 下一个
 
 [Lab 3 — Wire the Lab (dev only)](./lab-03-wire-the-lab.md)
