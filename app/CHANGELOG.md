@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/shiicho/resume-cicd-lab-e2e/compare/web-v0.3.0...web-v0.4.0) (2026-04-22)
+
+
+### Features
+
+* **web:** wire pipeline-info.json into release build ([#10](https://github.com/shiicho/resume-cicd-lab-e2e/issues/10)) ([e8fd7cb](https://github.com/shiicho/resume-cicd-lab-e2e/commit/e8fd7cb9524385efcf2a53a61a2adb2239641a5d))
+
 ## [0.3.0](https://github.com/shiicho/resume-cicd-lab-e2e/compare/web-v0.2.0...web-v0.3.0) (2026-04-22)
 
 
