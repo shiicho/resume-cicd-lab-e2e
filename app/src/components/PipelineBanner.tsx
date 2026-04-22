@@ -148,6 +148,7 @@ export function PipelineBanner() {
     let cancelled = false;
     void (async () => {
       try {
+        // wired by release-assets.yml "Write pipeline-info.json" step
         const res = await fetch('/pipeline-info.json', { cache: 'no-store' });
         if (!res.ok) {
           if (!cancelled)

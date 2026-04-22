@@ -62,6 +62,17 @@ jobs:
             echo "promote_to_development=${promote_to_development}"
           } >> "${GITHUB_OUTPUT}"
 
+      - name: Write pipeline-info.json into the artifact
+        run: |
+          cat > app/public/pipeline-info.json <<EOF
+          {
+            "releaseTag":     "${{ steps.meta.outputs.release_tag }}",
+            "shortSha":       "${{ steps.meta.outputs.short_sha }}",
+            "buildTimestamp": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
+            "artifactKey":    "${{ steps.meta.outputs.artifact_key }}"
+          }
+          EOF
+
       - name: Package static site
         run: |
           npm ci --prefix app
