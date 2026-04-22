@@ -120,6 +120,7 @@ export const resumeProjects: ResumeProject[] = [
     stageChips: ['詳細設計', '実装', '単体試験', '運用保守'],
     techChips: ['Amazon Linux 2023', 'VPC', 'EC2', 'ALB', 'RDS', 'S3', 'CloudFormation', 'CloudWatch', 'SNS', 'Nginx', 'MySQL', 'Bash'],
     responsibilities: [
+      'Deployed via GitHub Actions OIDC to AWS (CloudFormation + ECS + S3 + CloudFront)',
       'VPC、Subnet、RouteTable、SecurityGroup の詳細設計',
       'EC2 / ALB / RDS / S3 の構成設計と CloudFormation 実装',
       'EC2 初期設定、Nginx 設定、CloudWatch Logs / Alarm 設定',
