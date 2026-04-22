@@ -2,12 +2,12 @@
   "environment": "development",
   "publicBaseUrl": "https://ddxp9z5yn8n38.cloudfront.net",
   "artifactBucket": "resume-shared-s3-artifact-cicd-lab-e2e-635958930059",
-  "artifactKey": "web/releases/0.1.0/bootstrap/site.zip",
+  "artifactKey": "web/releases/web-v0.3.0+074a4253480c/site.zip",
   "siteBucket": "resume-dev-s3-site-cicd-lab-e2e-635958930059",
   "cloudFrontDistributionId": "EP68H6G643BAE",
   "release": {
-    "version": "0.1.0",
-    "gitSha": "bootstrap"
+    "version": "0.3.0",
+    "gitSha": "074a4253480c"
   },
   "cloudFormationStack": "resume-cicd-lab-dev-static-site"
 }
